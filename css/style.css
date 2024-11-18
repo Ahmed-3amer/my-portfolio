@@ -1,26 +1,36 @@
-:root {
-    --main-color: #1C1C1C;
-    --secondary-color: #748192;
-}
-
 /* Start Global Style */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  
+
+  :root {
+    --main-color: #1C1C1C;
+    --secondary-color: #748192;
+}
+
+
 html {
     scroll-behavior: smooth;
+    font-size: 16px;
 }
 
 body {
     font-family: 'Poppins', sans-serif !important;
+    font-size: 16px;
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Montserrat', sans-serif !important;
 }
+
+@media (max-width: 768px) {
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 1.5em;
+    }
+  }
+  
 
 ul{
     list-style-type: none !important;
