@@ -218,7 +218,7 @@ height: 0.5em;
 #Header .portfolio-image { 
     width: 400px;
     height: 400px;
-    margin-left: 80px;
+    margin-left: 60px !important;
 }
 /* End Header  */
 
@@ -505,14 +505,16 @@ footer .copy-text p {
 
 /* start media query */
 @media screen and (max-width: 1400px) {
-    #Header .portfolio-image {
-        margin-left: 30px;
-    }    
+        
 }
 
 @media screen and (max-width: 1200px) {
     #Header .typing-text {
-        margin-left: -60px;
+        margin-left: -60px !important;
+    }
+
+    #Header .portfolio-image {
+        margin-left: 20px !important;
     }
 
     .modal img {
@@ -544,7 +546,7 @@ footer .copy-text p {
     #Header .portfolio-image {
         width: 370px;
         height: 370px;
-        margin-left: 40px;
+        margin-left: 35px !important;
     }
 
     #Header ul {
@@ -567,37 +569,40 @@ footer .copy-text p {
         width: 900px;
         margin-top: 100px;
     }
+
+    #Header .navbar-nav {
+        flex-direction: row;
+    }
+
+    #Header .nav-item {
+        margin-inline: 2px !important;
+    }
 }
 
 @media screen and (max-width: 850px) {
     #Header .navbar-nav {
-        flex-direction: column;
-        padding-block: 40px 20px;
+        margin-top: 30px;
     }
 
     #Header .nav-item {
-        margin-block: 2px;
+        margin-inline: 2px !important;
     }
 
     #Header .portfolio-image {
-        width: 450px;
-        height: 450px;
-        margin-left: 120px;
-    }
-
-    #Header .head-section .row {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: reverse;
-            -ms-flex-direction: column-reverse;
-                flex-direction: column-reverse;
-    }
-
-    #Header .row {
-        padding-top: 100px;
+        width: 350px;
+        height: 350px;
+        margin-left: 20px !important;
     }
 
     #Header .typing-text {
-        margin-left: 20px;
+        margin-left: -40px !important;
+    }
+
+    #Header ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     #Header ul {
@@ -637,11 +642,27 @@ footer .copy-text p {
     }
 
     #Header .row {
-        padding-top: 100px;
+        padding-top: 80px !important;
     }
 
     #Header .typing-text {
         margin-left: 20px;
+    }
+
+    #Header .portfolio-image {
+        width: 300px;
+        height: 300px;
+        margin-left: 100px !important;
+    }
+
+    #Header .navbar-nav {
+        flex-direction: column;
+        margin: 0 !important;
+        padding-block: 20px 40px;
+    }
+
+    #Header .nav-item {
+        margin-block: 2px;
     }
 
     #Header ul {
@@ -661,10 +682,6 @@ footer .copy-text p {
         margin-left: 8px;
     }
 
-    #Header .portfolio-image {
-        margin-left: 25px !important;
-    }
-
     #Header .circle-icon {
         background-color: rgba(49, 46, 46, 0.4);
         width: 60px;
@@ -679,9 +696,13 @@ footer .copy-text p {
 
 @media screen and (max-width: 576px) {
     #Header .portfolio-image {
-        width: 400px;
-        height: 400px;
-        margin-left: 30px;
+        width: 280px;
+        height: 280px;
+        margin-left: 110px !important;
+    }
+
+    #Header .typing-text {
+        margin-left: 20px !important;
     }
 
     #Header h1 {
@@ -713,7 +734,7 @@ footer .copy-text p {
     #Header .portfolio-image {
         width: 320px;
         height: 320px;
-        margin-left: 45px;
+        margin-left: 50px !important;
     }
 
     #Header h1 {
