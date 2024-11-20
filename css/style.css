@@ -734,7 +734,7 @@ footer .copy-text p {
     #Header .portfolio-image {
         width: 320px;
         height: 320px;
-        margin-left: 50px !important;
+        margin-left: 20px !important;
     }
 
     #Header h1 {
@@ -761,7 +761,7 @@ footer .copy-text p {
     }
 
     #Header .linkedin-icon {
-        margin-right: 20px !important;
+        margin-right: 10px !important;
     }
 
     #About .button-group .about-btn {
