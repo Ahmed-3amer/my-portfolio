@@ -274,7 +274,7 @@ color: white;
 
 @media screen and (max-width: 992px) {
     #About .about-content {
-        margin-top: 80px;
+        margin-top: 60px;
     }
 }
 /* End About Section */
@@ -661,6 +661,11 @@ footer .copy-text p {
         padding-block: 20px 40px;
     }
 
+    #Header .navbar-toggler-icon {
+        width: 0.8em;
+        height: 0.8em;
+    }
+
     #Header .nav-item {
         margin-block: 2px;
     }
@@ -731,10 +736,16 @@ footer .copy-text p {
 }
 
 @media screen and (max-width: 400px) {
+    #Header .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+
     #Header .portfolio-image {
         width: 320px;
         height: 320px;
         margin-left: 22px !important;
+        padding-top: 20px;
     }
 
     #Header h1 {
@@ -757,7 +768,7 @@ footer .copy-text p {
     }
 
     #Header .typing-text {
-        margin-top: 30px !important;
+        margin-top: 60px !important;
     }
 
     #Header .linkedin-icon {
@@ -768,8 +779,45 @@ footer .copy-text p {
         padding: 10px 20px !important;
     }
 
+    #About .about-content {
+        margin-left: 25px !important;
+    }
+
     .modal img {
         width: 380px;
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    #Header .portfolio-image {
+        width: 290px;
+        height: 290px;
+    }
+
+    #Header .circle-icon {
+        background-color: rgba(49, 46, 46, 0.4);
+        width: 50px;
+        height: 50px;
+    }
+    #Header .circle-icon i {
+        font-size: 30px !important;
+    }
+
+    #Header .linkedin-icon {
+        padding-left: 2px !important;
+    }
+
+    #About .button-group .about-btn {
+        padding: 10px 15px !important;
+    }
+
+    #About .about-content {
+        margin-left: 20px !important;
+    }
+
+    .modal img {
+        width: 340px;
         margin-top: 200px;
     }
 }
