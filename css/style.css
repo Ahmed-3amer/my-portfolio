@@ -742,9 +742,9 @@ footer .copy-text p {
     }
 
     #Header .portfolio-image {
-        width: 340px;
-        height: 340px;
-        margin-left: 32px !important;
+        width: 350px;
+        height: 350px;
+        margin-left: 27px !important;
         padding-top: 20px;
     }
 
@@ -764,11 +764,11 @@ footer .copy-text p {
     }
 
     #Header .link-text {
-        font-size: 27px;
+        font-size: 30px;
     }
 
     #Header .typing-text {
-        margin-top: 60px !important;
+        margin-top: 80px !important;
     }
 
     #Header .linkedin-icon {
