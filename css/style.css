@@ -735,6 +735,60 @@ footer .copy-text p {
     }
 }
 
+@media screen and (max-width: 430px) {
+    #Header .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+
+    #Header .portfolio-image {
+        width: 340px;
+        height: 340px;
+        margin-left: 32px !important;
+        padding-top: 20px;
+    }
+
+    #Header h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    
+    #Header h5 {
+        font-size: 30px;
+        font-weight: 200;
+    }
+    
+    #Header span {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    #Header .link-text {
+        font-size: 27px;
+    }
+
+    #Header .typing-text {
+        margin-top: 60px !important;
+    }
+
+    #Header .linkedin-icon {
+        margin-right: 10px !important;
+    }
+
+    #About .button-group .about-btn {
+        padding: 10px 20px !important;
+    }
+
+    #About .about-content {
+        margin-left: 25px !important;
+    }
+
+    .modal img {
+        width: 400px;
+        margin-top: 280px;
+    }
+}
+
 @media screen and (max-width: 400px) {
     #Header .navbar-toggler-icon {
         width: 1em;
