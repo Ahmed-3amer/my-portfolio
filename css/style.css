@@ -504,10 +504,6 @@ footer .copy-text p {
 /* End Footer */
 
 /* start media query */
-@media screen and (max-width: 1400px) {
-        
-}
-
 @media screen and (max-width: 1200px) {
     #Header .typing-text {
         margin-left: -60px !important;
